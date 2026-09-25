@@ -31,14 +31,16 @@ Tecnologías Utilizadas
     
 Arquitectura del Proyecto
 
+```text
 src/main/java/com/RavenDev/inventory_crafting_api/
-├── config/             # Configuración de OpenAPI / Swagger
-├── controller/         # Endpoints REST (Item, Inventory, Crafting)
-├── domain/             # Entidades JPA (Inventory, InventorySlot, Item, Recipe,             RecipeIngredient)
-├── dto/                # Data Transfer Objects (Records de Java)
-├── exception/          # Excepciones custom y GlobalExceptionHandler
-├── repository/         # Interfaces de Spring Data JPA
-└── service/            # Lógica de negocio (InventoryService, CraftingService)
+├── config/         # Configuración de OpenAPI / Swagger
+├── controller/     # Endpoints REST (Item, Inventory, Crafting)
+├── domain/         # Entidades JPA (Inventory, InventorySlot, Item, Recipe, RecipeIngredient)
+├── dto/            # Data Transfer Objects (Records de Java)
+├── exception/      # Excepciones custom y GlobalExceptionHandler
+├── repository/     # Interfaces de Spring Data JPA
+└── service/        # Lógica de negocio (InventoryService, CraftingService)
+```
 
 Configuración y Variables de Entorno
 
